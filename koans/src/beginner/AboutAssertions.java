@@ -16,22 +16,22 @@ public class AboutAssertions {
 
 	@Koan() 
 	public void assertBooleanTrue() {
-		assertTrue(__); // should be true really
+		assertTrue(true); // should be true really
 	}
 
 	@Koan()
 	public void assertBooleanFalse() {
-		assertFalse(__); 
+		assertFalse(false); 
 	}
 	
 	@Koan()
 	public void assertNullObject(){
-		assertNull(__);
+		assertNull(null);
 	}
 	
 	@Koan()
 	public void assertNotNullObject(){
-		assertNotNull(null); // anything other than null should pass here...
+		assertNotNull(0); // anything other than null should pass here...
 	}
 	
 	@Koan()
@@ -39,13 +39,13 @@ public class AboutAssertions {
 		// Generally, when using an assertXXX methods, expectation is on the 
 		// left and it is best practice to use a String for the first arg 
 		// indication what has failed
-		assertEquals("1 should equal 1", 1, __); 	
+		assertEquals("1 should equal 1", 1, 1); 	
 	}
 	
 	@Koan()
 	public void assertSameInstance(){
 		Integer same = new Integer(1);
-		assertSame(same, __);
+		assertSame(same, 1);
 	}
 	
 	@Koan()

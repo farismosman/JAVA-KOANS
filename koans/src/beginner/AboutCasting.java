@@ -14,9 +14,9 @@ public class AboutCasting {
 		int a = 6;
 		long b = 10;
 		Object c = a + b;
-		assertEquals(c, __);
-		assertEquals(c instanceof Integer, __);
-		assertEquals(c instanceof Long, __);
+		assertEquals(c, (long) 16);
+		assertEquals(c instanceof Integer, false);
+		assertEquals(c instanceof Long, true);
 	}
     
     @Koan
@@ -24,7 +24,7 @@ public class AboutCasting {
 		long a = 2147483648L; 
 		// What happens if we force a long value into an int?
 		int b = (int)a;
-		assertEquals(b, __);
+		assertEquals(b, Integer.MIN_VALUE);
 	}
    
     @Koan
@@ -32,7 +32,7 @@ public class AboutCasting {
     	int a = 1;
     	int b = Integer.MAX_VALUE;
 		long c = a + b; // still overflows int... which is the Integer.MIN_VALUE, the operation occurs prior to assignment to long
-		assertEquals(c, __);
+		assertEquals(c, (long) Integer.MIN_VALUE);
 	}
     
     interface Sleepable {

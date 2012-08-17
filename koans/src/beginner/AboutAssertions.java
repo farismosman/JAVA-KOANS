@@ -45,13 +45,13 @@ public class AboutAssertions {
 	@Koan()
 	public void assertSameInstance(){
 		Integer same = new Integer(1);
-		assertSame(same, 1);
+		assertNotSame(same, 1);
 	}
 	
 	@Koan()
 	public void assertNotSameInstance(){
 		Integer same 			= new Integer(1);
 		Integer sameReference   = same;
-		assertNotSame(same, sameReference); 
+		assertSame(same, sameReference); 
 	}
 }

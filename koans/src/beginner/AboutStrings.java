@@ -10,7 +10,7 @@ public class AboutStrings {
 	@Koan
 	public void implicitStrings(){
 		Class<?> c = "just a plain ole string".getClass();
-		assertEquals(c, __);
+		assertEquals(c, String.class);
 	}
 	
 	@Koan
@@ -19,35 +19,35 @@ public class AboutStrings {
 		// practice - generally it is redundant, and done repetitively can be slow
 		String string = new String();
 		String empty = "";
-		assertEquals(string.equals(empty), __);
+		assertEquals(string.equals(empty), true);
 	}
 	
 	@Koan
 	public void newStringIsRedundant(){
 		String stringInstance = "zero";
 		String stringReference  = new String(stringInstance);
-		assertEquals(stringInstance.equals(stringReference), __);
+		assertEquals(stringInstance.equals(stringReference), true);
 	}
 	
 	@Koan
 	public void newStringIsNotIdentitical(){
 		String stringInstance = "zero";
 		String stringReference = new String(stringInstance);
-		assertEquals(stringInstance == stringReference, __);
+		assertEquals(stringInstance == stringReference, false);
 	}
 	
 	@Koan
-	public void stringConcatination(){
+	public void stringConcatenation(){
 		String one = "one";
 		String space = " ";
 		String two = "two";
-		assertEquals(one+space+two, __);
+		assertEquals(one+space+two, "one two");
 	}
 	
 	@Koan
 	public void efficientStringConcatenation(){
 		// the above implicit string concatenation looks nice - but, it is expensive.
 		// it creates a new string instance on each concatenation. here's a better alternative:
-		assertEquals(new StringBuilder("one").append(" ").append("two").toString(), __);
+		assertEquals(new StringBuilder("one").append(" ").append("two").toString(), "one two");
 	}
 }

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="src">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/koans-tests/data/src/cglib-nodep-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/koans-tests/data/src/easymock-3.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

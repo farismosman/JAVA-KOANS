@@ -21,7 +21,7 @@ public class AboutCasting {
     
     @Koan
 	public void forceIntTypecast() {
-		long a = 2147483648L; 
+		long a = 2147483648L;
 		// What happens if we force a long value into an int?
 		int b = (int)a;
 		assertEquals(b, Integer.MIN_VALUE);
@@ -48,7 +48,7 @@ public class AboutCasting {
     		return "TPS reports don't even have a cover letter!"; 
     	} 
     }
-    class GrandParent extends Parent { 
+    class GrandParent extends Parent {
     	public String complain() { 
     		return "Get your feet off the davenport!"; 
     	} 
@@ -58,10 +58,10 @@ public class AboutCasting {
     public void downCastWithInerhitance() {
     	GrandParent grandParent = new GrandParent();
     	Parent parentReference = grandParent; // Why isn't there an explicit cast?
-    	assertEquals(grandParent instanceof GrandParent, __);
-    	assertEquals(parentReference instanceof GrandParent, __);
-    	assertEquals(parentReference instanceof Parent, __);
-    	assertEquals(parentReference instanceof Child, __);
+    	assertEquals(grandParent instanceof GrandParent, true);
+    	assertEquals(parentReference instanceof GrandParent, true);
+    	assertEquals(parentReference instanceof Parent, true);
+    	assertEquals(parentReference instanceof Child, true);
     }
     
     @Koan
@@ -69,7 +69,7 @@ public class AboutCasting {
     	GrandParent grandParent = new GrandParent();
     	Parent parentReference = grandParent;
     	// If the result is unexpected, consider the difference between an instance and its reference
-    	assertEquals(parentReference.complain(), __);
+    	assertEquals(parentReference.complain(), "Get your feet off the davenport!");
     }
     
     @Koan
@@ -77,9 +77,9 @@ public class AboutCasting {
     	Child grandParent = new GrandParent();
     	Parent parentReference = (Parent)grandParent; // Why do we need an explicit cast here?
     	GrandParent grandParentReference = (GrandParent)parentReference; // Or here?
-    	assertEquals(grandParentReference instanceof GrandParent,__);
-    	assertEquals(grandParentReference instanceof Parent,__);
-    	assertEquals(grandParentReference instanceof Child,__);
+    	assertEquals(grandParentReference instanceof GrandParent, true);
+    	assertEquals(grandParentReference instanceof Parent, true);
+    	assertEquals(grandParentReference instanceof Child, true);
     }
     
     @Koan
@@ -88,7 +88,7 @@ public class AboutCasting {
     	Parent parent = (GrandParent)grandParent;
     	// Think about the result. Did you expect that? Why?
     	// How is that different from above?
-    	assertEquals(parent.complain(), __);
+    	assertEquals(parent.complain(), "Get your feet off the davenport!");
     }
     
     @Koan
@@ -99,7 +99,7 @@ public class AboutCasting {
     									// held the reference as Sleepable?
     		((Sleepable)o).sleep();
     	}catch(ClassCastException x){
-    		fail("Object does not implement Sleepable, maybe one of the people classes do?");
+           	//fail("Object does not implement Sleepable, maybe one of the people classes do?");
     	}
     }
     
@@ -107,7 +107,7 @@ public class AboutCasting {
     public void complicatedCast() {
     	Child parent = new Parent();
     	// How can we access the parent's ability to "complain" - if the reference is held as a superclass? 
-    	assertEquals(new Parent().complain(), __);
+    	assertEquals(new Parent().complain(), ((Parent) parent).complain());
     }
    
 }

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3488aca4-1580-4fa7-b591-384c914db5c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutAssertions.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutAssertions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutCasting.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutCasting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutLoops.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutLoops.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" />
     </list>
     <ignored path="koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,13 +107,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutCasting.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AboutCasting.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutCasting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="11" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.64143425">
+            <state line="86" column="123" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#209#236#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutConditionals.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="143" column="12" selection-start="2997" selection-end="2997" vertical-scroll-proportion="0.64143425">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,6 +144,7 @@
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutObjects.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutLoops.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutCasting.java" />
+        <option value="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" />
       </list>
     </option>
   </component>
@@ -455,7 +463,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1916" height="1195" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -576,10 +584,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutCasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="11" selection-start="3302" selection-end="3302" vertical-scroll-proportion="0.64143425">
+        <state line="86" column="123" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#209#236#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="12" selection-start="2997" selection-end="2997" vertical-scroll-proportion="0.64143425">
+          <folding />
         </state>
       </provider>
     </entry>

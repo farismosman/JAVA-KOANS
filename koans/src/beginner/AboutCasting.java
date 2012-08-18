@@ -94,7 +94,7 @@ public class AboutCasting {
     @Koan
     public void classCasting(){
     	try{
-    		Object o = new Object(); 	// were downcasting way to far here - would it be possible
+    		Object o = new Object(); 	// we're downcasting way too far here - would it be possible
     									// to even compile this koan had we done what was safe, and 
     									// held the reference as Sleepable?
     		((Sleepable)o).sleep();

@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3488aca4-1580-4fa7-b591-384c914db5c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutConstructors.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutConstructors.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutEnums.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutEnums.java" />
     </list>
     <ignored path="koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,10 +124,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutConstructors.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AboutConstructors.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutConstructors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="44" selection-start="729" selection-end="729" vertical-scroll-proportion="0.52427185">
+            <state line="33" column="32" selection-start="605" selection-end="613" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutEnums.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutEnums.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="40" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4017857">
               <folding />
             </state>
           </provider>
@@ -154,6 +162,7 @@
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutConstructors.java" />
+        <option value="$PROJECT_DIR$/koans/src/beginner/AboutEnums.java" />
       </list>
     </option>
   </component>
@@ -598,7 +607,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutConstructors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="44" selection-start="729" selection-end="729" vertical-scroll-proportion="0.52427185">
+        <state line="33" column="32" selection-start="605" selection-end="613" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutEnums.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="40" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4017857">
           <folding />
         </state>
       </provider>

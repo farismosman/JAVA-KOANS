@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3488aca4-1580-4fa7-b591-384c914db5c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java" />
     </list>
     <ignored path="koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,15 +70,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.sh" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koans/run.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="-9.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AboutObjects.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutObjects.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,9 +92,7 @@
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutLoops.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="88" column="12" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,17 +101,24 @@
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutCasting.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="86" column="123" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#209#236#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutConditionals.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AboutConditionals.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="12" selection-start="2997" selection-end="2997" vertical-scroll-proportion="0.64143425">
+            <state line="146" column="18" selection-start="3058" selection-end="3058" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutInheritance.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="216" selection-start="345" selection-end="345" vertical-scroll-proportion="0.15852048">
               <folding />
             </state>
           </provider>
@@ -145,13 +142,14 @@
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutLoops.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutCasting.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" />
+        <option value="$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1440" />
-    <option name="width" value="1916" />
-    <option name="height" value="1195" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -195,6 +193,17 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koans" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -247,32 +256,21 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="koans" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="editor.preferences.appearance" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -332,6 +330,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -357,24 +373,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -462,8 +460,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1916" height="1195" extended-state="0" />
-    <editor active="true" />
+    <frame x="1440" y="0" width="1920" height="1200" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -477,8 +475,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10867238" sideWeight="0.72625697" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.273743" sideWeight="0.9994641" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.081196584" sideWeight="0.7265987" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2734013" sideWeight="0.9994641" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -545,55 +543,44 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutStrings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="26" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koans/run.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="-9.0">
-          <folding />
-        </state>
+        <state line="15" column="0" selection-start="340" selection-end="340" vertical-scroll-proportion="-9.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="26" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutObjects.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="57" column="0" selection-start="1701" selection-end="1701" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutAssertions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="13" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutLoops.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="12" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="88" column="12" selection-start="1496" selection-end="1496" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutCasting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="123" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#209#236#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="86" column="123" selection-start="2727" selection-end="2727" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="12" selection-start="2997" selection-end="2997" vertical-scroll-proportion="0.64143425">
+        <state line="146" column="18" selection-start="3058" selection-end="3058" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="216" selection-start="345" selection-end="345" vertical-scroll-proportion="0.15852048">
           <folding />
         </state>
       </provider>

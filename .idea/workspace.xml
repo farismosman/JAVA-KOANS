@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3488aca4-1580-4fa7-b591-384c914db5c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutEnums.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutEnums.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java" />
     </list>
     <ignored path="koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -133,11 +132,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutEnums.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AboutEnums.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutEnums.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="40" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4017857">
+            <state line="25" column="72" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutExceptions.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="40" selection-start="761" selection-end="761" vertical-scroll-proportion="0.42211056">
+              <folding>
+                <element signature="e#1483#1511#0" expanded="true" />
+                <element signature="e#2492#2519#0" expanded="true" />
+                <element signature="e#2574#2601#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +175,7 @@
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutInheritance.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutConstructors.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutEnums.java" />
+        <option value="$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java" />
       </list>
     </option>
   </component>
@@ -614,8 +627,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutEnums.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="40" selection-start="716" selection-end="716" vertical-scroll-proportion="0.4017857">
+        <state line="25" column="72" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="40" selection-start="761" selection-end="761" vertical-scroll-proportion="0.42211056">
+          <folding>
+            <element signature="e#1483#1511#0" expanded="true" />
+            <element signature="e#2492#2519#0" expanded="true" />
+            <element signature="e#2574#2601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

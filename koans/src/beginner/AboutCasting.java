@@ -85,7 +85,7 @@ public class AboutCasting {
     @Koan
     public void upCastAndPolymophism() {
     	Child grandParent = new GrandParent();
-    	Parent parent = (GrandParent)grandParent;
+    	Parent parent = (Parent)grandParent;
     	// Think about the result. Did you expect that? Why?
     	// How is that different from above?
     	assertEquals(parent.complain(), "Get your feet off the davenport!");
@@ -98,8 +98,11 @@ public class AboutCasting {
     									// to even compile this koan had we done what was safe, and 
     									// held the reference as Sleepable?
     		((Sleepable)o).sleep();
+
+            fail("Didn't throw ClassCastException");
     	}catch(ClassCastException x){
-           	//fail("Object does not implement Sleepable, maybe one of the people classes do?");
+           	assertEquals("Object does not implement Sleepable, maybe one of the people classes do?",
+                        "java.lang.Object cannot be cast to beginner.AboutCasting$Sleepable", x.getMessage());
     	}
     }
     

@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3488aca4-1580-4fa7-b591-384c914db5c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutCasting.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutCasting.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java" />
     </list>
     <ignored path="koans.iws" />
@@ -152,11 +150,11 @@
       <file leaf-file-name="AboutExceptions.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="8" selection-start="2967" selection-end="2967" vertical-scroll-proportion="0.81197774">
+            <state line="126" column="21" selection-start="3135" selection-end="3135" vertical-scroll-proportion="0.8356546">
               <folding>
                 <element signature="e#1598#1626#0" expanded="true" />
-                <element signature="e#2638#2665#0" expanded="true" />
-                <element signature="e#2720#2747#0" expanded="true" />
+                <element signature="e#2793#2820#0" expanded="true" />
+                <element signature="e#2875#2902#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -571,7 +569,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22008547" sideWeight="0.7222222" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2777778" sideWeight="0.9994641" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2777778" sideWeight="0.9994641" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -697,11 +695,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="8" selection-start="2967" selection-end="2967" vertical-scroll-proportion="0.81197774">
+        <state line="126" column="21" selection-start="3135" selection-end="3135" vertical-scroll-proportion="0.8356546">
           <folding>
             <element signature="e#1598#1626#0" expanded="true" />
-            <element signature="e#2638#2665#0" expanded="true" />
-            <element signature="e#2720#2747#0" expanded="true" />
+            <element signature="e#2793#2820#0" expanded="true" />
+            <element signature="e#2875#2902#0" expanded="true" />
           </folding>
         </state>
       </provider>

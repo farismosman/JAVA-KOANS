@@ -8,11 +8,11 @@ public class AboutOperators {
 
 	@Koan
 	public void plusPlusVariablePlusPlus(){
-		int i = 1;
-		assertEquals(++i,__);
-		assertEquals(i,__);
-		assertEquals(i++,__);
-		assertEquals(i,__);
+		int i = 3;
+		assertEquals(++i,4);
+		assertEquals(i,4);
+		assertEquals(i++,4);
+		assertEquals(i,5);
 	}
 	
 	@Koan
@@ -22,7 +22,7 @@ public class AboutOperators {
 		// What happens if you replace 'a' with '6' below?
 		// Try this with an IDE like Eclipse...
 		if ( (a < 9 ) || (++i < 8)  )  i = i + 1;
-		assertEquals(i,__);
+		assertEquals(i,2);
 	}
 	
 	@Koan

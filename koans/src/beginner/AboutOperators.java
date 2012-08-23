@@ -61,24 +61,25 @@ public class AboutOperators {
 	public void aboutBitShiftingRightShift() {
 		int rightShift = 8;
 		rightShift = rightShift >> 1; 
-		assertEquals(rightShift, 9);
+		assertEquals(rightShift, 4);
 	}
 	
 	@Koan
 	public void aboutBitShiftingLeftShift() {
 		int leftShift = 0x80000000; // Is this number positive or negative?
+//        System.out.println(leftShift);
 		leftShift = leftShift << 1;
-		assertEquals(leftShift, __);
+		assertEquals(leftShift, 0);
 	}
 	
 	@Koan
 	public void aboutBitShiftingRightUnsigned() {
 		int rightShiftNegativeStaysNegative = 0x80000000;
 		rightShiftNegativeStaysNegative = rightShiftNegativeStaysNegative >> 4;
-		assertEquals(rightShiftNegativeStaysNegative, __);
+		assertEquals(rightShiftNegativeStaysNegative, -134217728);
 		int unsignedRightShift = 0x80000000; // always fills with 0
 		unsignedRightShift >>>= 4; // Just like +=
-		assertEquals(unsignedRightShift, __);
+		assertEquals(unsignedRightShift, 134217728);
 	}
 	
 }

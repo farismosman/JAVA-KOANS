@@ -29,14 +29,14 @@ public class AboutOperators {
 	public void fullAnd(){
 		int i = 1;
 		if ( true & (++i < 8)  )  i = i + 1;
-		assertEquals(i,__);
+		assertEquals(i,3);
 	}
 	
 	@Koan
 	public void shortCircuitAnd(){
 		int i = 1;
 		if ( true && (i < -28)  )  i = i + 1;
-		assertEquals(i,__);
+		assertEquals(i, 1);
 	}
 	
 	@Koan
@@ -44,16 +44,16 @@ public class AboutOperators {
 		int i = 1;
 		int a = 6;
 		if ( (a < 9 ) ^ false)  i = i + 1;
-		assertEquals(i,__);
+		assertEquals(i,2);
 	}
 	
 	@Koan
 	public void dontMistakeEqualsForEqualsEquals() {
 		int i = 1;
 		boolean a = false;
-		if (a = true)  i++;
-		assertEquals(a, __);
-		assertEquals(i,__);
+		if (a == true)  i++;
+		assertEquals(a, false);
+		assertEquals(i, 1);
 		// How could you write the condition 'with a twist' to avoid this trap?
 	}
 	
@@ -61,7 +61,7 @@ public class AboutOperators {
 	public void aboutBitShiftingRightShift() {
 		int rightShift = 8;
 		rightShift = rightShift >> 1; 
-		assertEquals(rightShift, __);
+		assertEquals(rightShift, 9);
 	}
 	
 	@Koan

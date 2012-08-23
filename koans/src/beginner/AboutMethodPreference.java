@@ -32,13 +32,13 @@ public class AboutMethodPreference {
 	@Koan
 	public void methodPreferenceBoxedLong() {
 		Long l = Long.valueOf(1);
-		assertEquals(new A().doStuff(l), __);
+		assertEquals(new A().doStuff(l), "Object");
 	}
 	
 	@Koan
 	public void methodPreferenceDouble() {
 		Double l = Double.valueOf(1);
-		assertEquals(new A().doStuff(l), __);
+		assertEquals(new A().doStuff(l), "Object");
 	}
 
 	@Koan
@@ -46,6 +46,6 @@ public class AboutMethodPreference {
 		// What happens if you change 'Integer' to 'Double'
 		// Does this explain 'methodPreferenceDouble'?
 		// Think about why this happens?
-		assertEquals(new A().doStuff(1,Integer.valueOf(2)), __);
+		assertEquals(new A().doStuff(1,Integer.valueOf(2)), "int vararg");
 	}
 }

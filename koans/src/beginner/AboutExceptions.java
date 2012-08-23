@@ -41,12 +41,14 @@ public class AboutExceptions {
 	@Koan
 	public void finallyWithoutCatch() {
 		String s = "";
-		try {
-			s = "code ran normally";
-		} finally {
-			s += " and finally ran as well";
-		}
-		assertEquals(s, "code ran normally and finally ran as well");
+		 try {
+                  s = "code ran normally";
+            }
+             finally {
+                s += " and finally ran as well";
+            }
+
+    		assertEquals(s, "code ran normally and finally ran as well");
 	}
 	
 	private void tryCatchFinallyWithVoidReturn(StringBuilder whatHappened) {
@@ -108,6 +110,8 @@ public class AboutExceptions {
         }
 
         assertEquals("we win!!", s);
+
+//        doUncheckedStuff();
 	}
 	
 	@SuppressWarnings("serial")

@@ -9,40 +9,40 @@ public class AboutPrimitives {
 	
 	@Koan()
 	public void byteSize() {
-		assertEquals(Byte.SIZE, __);
+		assertEquals(Byte.SIZE, 8);
 	}
 	
 	@Koan()
 	public void shortSize() {
-		assertEquals(Short.SIZE, __);
+		assertEquals(Short.SIZE, 16);
 	}
 	
 	@Koan
 	public void integerSize() {
-		assertEquals(Integer.SIZE, __);
+		assertEquals(Integer.SIZE, 32);
 	}
 	
 	@Koan
 	public void longSize() {
-		assertEquals(Long.SIZE, __);
+		assertEquals(Long.SIZE, 64);
 	}
 	
 	@Koan
 	public void charSizeAndValue() {
 		// a char basically is an unsigned int
-		assertEquals(Character.SIZE,__);
-		assertEquals(Character.MIN_VALUE,__);
-		assertEquals(Character.MAX_VALUE,__);
+		assertEquals(Character.SIZE,16);
+		assertEquals(Character.MIN_VALUE,'\u0000');
+		assertEquals(Character.MAX_VALUE,'\uFFFF');
 	}
 	
 	// Floating Points
 	@Koan
 	public void floatSize() {
-		assertEquals(Float.SIZE,__);
+		assertEquals(Float.SIZE,32);
 	}
 	
 	@Koan
 	public void doubleSize() {
-		assertEquals(Double.SIZE, __);
+		assertEquals(Double.SIZE, 64);
 	}
 }

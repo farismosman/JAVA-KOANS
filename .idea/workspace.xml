@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3488aca4-1580-4fa7-b591-384c914db5c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutOperators.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutOperators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutArrays.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutArrays.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/beginner/AboutPrimitives.java" afterPath="$PROJECT_DIR$/koans/src/beginner/AboutPrimitives.java" />
     </list>
     <ignored path="koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,24 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AboutCasting.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutCasting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="28" selection-start="3245" selection-end="3245" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutConditionals.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutConditionals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="19" selection-start="3802" selection-end="3802" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AboutStrings.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutStrings.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -147,13 +129,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AboutOperators.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="AboutOperators.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutOperators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="52" selection-start="1964" selection-end="1964" vertical-scroll-proportion="1.385468">
+            <state line="81" column="52" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutArrays.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="30" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AboutPrimitives.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutPrimitives.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="264" selection-end="264" vertical-scroll-proportion="0.18072289">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,6 +182,8 @@
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutExceptions.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutMethodPreference.java" />
         <option value="$PROJECT_DIR$/koans/src/beginner/AboutOperators.java" />
+        <option value="$PROJECT_DIR$/koans/src/beginner/AboutArrays.java" />
+        <option value="$PROJECT_DIR$/koans/src/beginner/AboutPrimitives.java" />
       </list>
     </option>
   </component>
@@ -221,9 +223,9 @@
     <option name="IS_UNIT_TEST_ENABLED" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1450" />
-    <option name="width" value="1897" />
-    <option name="height" value="1170" />
+    <option name="x" value="1440" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -553,7 +555,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1450" y="0" width="1897" height="1170" extended-state="0" />
+    <frame x="1440" y="0" width="1920" height="1200" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -568,8 +570,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22282314" sideWeight="0.8207817" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1792183" sideWeight="0.99623656" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22008547" sideWeight="0.73772013" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2622799" sideWeight="0.99623656" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -707,10 +709,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutOperators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="52" selection-start="1964" selection-end="1964" vertical-scroll-proportion="1.385468">
+        <state line="81" column="52" selection-start="1964" selection-end="1964" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="30" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koans/src/beginner/AboutPrimitives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="5" selection-start="264" selection-end="264" vertical-scroll-proportion="0.18072289">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3488aca4-1580-4fa7-b591-384c914db5c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/koans/src/intermediate/AboutCollections.java" afterPath="$PROJECT_DIR$/koans/src/intermediate/AboutCollections.java" />
     </list>
     <ignored path="koans.iws" />
@@ -87,7 +86,7 @@
       <file leaf-file-name="AboutCollections.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/koans/src/intermediate/AboutCollections.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="55" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.68604654">
+            <state line="87" column="37" selection-start="2459" selection-end="2459" vertical-scroll-proportion="0.4883721">
               <folding />
             </state>
           </provider>
@@ -673,7 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/koans/src/intermediate/AboutCollections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="55" selection-start="2227" selection-end="2227" vertical-scroll-proportion="0.68604654">
+        <state line="87" column="37" selection-start="2459" selection-end="2459" vertical-scroll-proportion="0.4883721">
           <folding />
         </state>
       </provider>

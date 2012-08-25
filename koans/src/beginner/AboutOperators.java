@@ -69,7 +69,7 @@ public class AboutOperators {
 		int leftShift = 0x80000000; // Is this number positive or negative?
 //        System.out.println(leftShift);
 		leftShift = leftShift << 1;
-		assertEquals(leftShift, 0);
+		assertEquals(leftShift, 0); 
 	}
 	
 	@Koan

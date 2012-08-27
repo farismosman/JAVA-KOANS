@@ -98,12 +98,12 @@ public class AboutCollections {
 		map.put("e", "Emu");
 		map.put("f", "Fox");
 		SortedMap<String, String> backedMap = map.subMap("c", "f");
-		assertEquals(backedMap.size(), __);
-		assertEquals(map.size(), __);
+		assertEquals(backedMap.size(), 2);
+		assertEquals(map.size(), 5);
 		backedMap.put("d", "Dog");
-		assertEquals(backedMap.size(), __);
-		assertEquals(map.size(), __);
-		assertEquals(map.containsKey("d"), __);
+		assertEquals(backedMap.size(), 3);
+		assertEquals(map.size(), 6);
+		assertEquals(map.containsKey("d"), true);
 		// Again: backed maps are just like those little quantum states 
 		// that are connected forever...
 	}
